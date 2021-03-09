@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.MSSV";
+option java_outer_classname = "MSSVProto";
+option objc_class_prefix = "MSSV";
+
+package MSSV;
+
+// Interface exported by the server.
+service MSSVProto {
+  rpc GetFeature(idSV) returns (infoSV) {}
+}
+
+message idSV {
+  string mssv = 1;
+}
+
+message infoSV {
+  string name = 1;
+  idSV id = 2;
+  string phone = 3;
+  string address = 4;
+  string dateOfBirth = 5;
+  string age = 6;
+  string gender = 7;
+  string mail = 8;
+}

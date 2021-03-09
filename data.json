@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Trinh Thanh Tung",
+        "Student_id" : "17021356",
+        "phone" : "0334842662",
+        "address" : "HaNoi",
+        "DOB" : "22/11/1999",
+        "age": "21",
+        "gender" : "male",
+        "mail" : "17021356@email.com"
+    },
+    {
+        "name": "Trinh Cong Nam",
+        "Student_id" : "17021326",
+        "phone" : "0334888662",
+        "address" : "HaNoi",
+        "DOB" : "22/8/1999",
+        "age": "21",
+        "gender" : "male",
+        "mail" : "17021326@email.com"
+    },
+    {
+        "name": "Nguyen Thanh Tung",
+        "Student_id" : "17021256",
+        "phone" : "0334444462",
+        "address" : "HaNoi",
+        "DOB" : "2/1/1999",
+        "age": "21",
+        "gender" : "male",
+        "mail" : "17021256@email.com"
+    }
+]
